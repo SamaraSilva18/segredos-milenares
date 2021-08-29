@@ -1,8 +1,10 @@
 #indexbody {
     align-content: center;
     color: chocolate;
+    max-width: 50rem;
 }
 
 .body-container {
     background-color: beige;
+    max-width: 50rem;
 }

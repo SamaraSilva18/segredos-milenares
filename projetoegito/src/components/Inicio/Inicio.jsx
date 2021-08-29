@@ -1,8 +1,8 @@
 import React from "react"
 
-import './PageBody.css'
+import './Inicio.css'
 
-export default function PageBody() {
+export default function Inicio() {
     return (
         <div className="body-container">
             <section id="indexbody">
