@@ -6,8 +6,8 @@ import piramides from './indexbanner.png';
 
 export default function Header() {
     return (
-        <header>
-        <img src={piramides} alt="Banner de Piramides"/>
+        <header className="image-container">
+        <img src={piramides} alt="Banner de Piramides" className="imapirami"/>
             <div className="menu">
                 <nav className="navMenu">
                     <ul>
