@@ -4,6 +4,8 @@ import Header from '../Header/Header.jsx';
 import Inicio from '../Inicio/Inicio.jsx';
 import Mitologia from '../Mitologia/Mitologia.jsx';
 import Monumentos from '../Monumentos/Monumentos.jsx';
+import Realeza from '../Realeza/Realeza.jsx'
+import Cadastro from '../Cadastro/Cadastro.jsx' 
 import Arte from '../Arte/Arte.jsx';
 import { Route, Switch } from "react-router-dom";
 
@@ -31,7 +33,7 @@ function App() {
           </Route>
           <Route exact path="/realeza">
 
-
+            <Realeza/>
 
           </Route>
           <Route exact path="/monumentos">
@@ -41,7 +43,7 @@ function App() {
           </Route>
           <Route exact path="/cadastro">
 
-
+            <Cadastro/>
 
           </Route>
         
