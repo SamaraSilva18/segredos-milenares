@@ -30,3 +30,8 @@
     border-radius: .8rem;
     max-height: 50rem;
 }
+
+.arteentry {
+    border-bottom: lightgray 1px solid;
+    padding-bottom: 3rem;
+}

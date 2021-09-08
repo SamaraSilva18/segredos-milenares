@@ -29,15 +29,21 @@
 }
 
 .box1, .box2, .box4, .box5 {
-    max-width: 25rem;
-    border: black 2px solid;
+    width: 25rem;
+    border: chocolate 1px solid;
     padding-bottom: 2rem;
     float: left;
 }
 
 .box3, .box6 {
-    max-width: 25rem;
-    border: black 2px solid;
+    width: 25rem;
+    border: chocolate 1px solid;
     padding-bottom: 2rem;
     float: right;
+}
+
+.img-thumbnail {
+    max-width: 400px;
+    max-height: 400px;
+    padding-top: 1rem;
 }
