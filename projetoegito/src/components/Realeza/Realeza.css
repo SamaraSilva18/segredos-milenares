@@ -30,6 +30,7 @@
 
 .box1, .box2, .box4, .box5 {
     width: 25rem;
+    height: 30rem;
     border: chocolate 1px solid;
     padding-bottom: 2rem;
     float: left;
@@ -37,13 +38,23 @@
 
 .box3, .box6 {
     width: 25rem;
+    height: 30rem;
     border: chocolate 1px solid;
     padding-bottom: 2rem;
     float: right;
 }
 
-.img-thumbnail {
+.img-thumbnail, .img-thumbnaila {
     max-width: 400px;
-    max-height: 390px;
+    max-height: 320px;
     padding-top: 1rem;
+}
+
+.img-thumbnaila {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.row2 {
+    margin-top: .2rem;
 }

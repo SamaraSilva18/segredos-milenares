@@ -23,7 +23,7 @@ export default function Cadastro(props) {
                     </div>
 
                     <div class="input-block">
-                        <label for="whatsapp">Telefone: <small>(Somente números):</small></label>
+                        <label for="whatsapp">Telefone: </label>
                         <input name="whatsapp" id="whatsapp" type="number" required/>
                     </div>
                     <legend>Insira tambem seu endereço e CEP para receber nossa revista!</legend>
