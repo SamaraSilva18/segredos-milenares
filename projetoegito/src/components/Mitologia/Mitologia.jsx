@@ -10,7 +10,7 @@ export default function Mitologia() {
             <img src={horus} alt="Horus vs Seth" className="imamito"/>
             <h2>Sobre o Mito:</h2>
               <div className="texto">  
-                "As contendas de Hórus e Seth" é uma história mitológica da Vigésima Dinastia do Egito, encontrada nas primeiras dezesseis páginas do papiro Chester Beatty. A lenda lida com as batalhas entre Horus e Seth para determinar quem será o sucessor de Osiris.
+                "As contendas de Hórus e Seth" é uma história mitológica da Vigésima Dinastia do Egito, encontrada nas primeiras dezesseis páginas do papiro Chester Beatty. A lenda lida com as batalhas entre Horus e Seth para determinar quem será o sucessor de Osiris. <br/>    
                </div>
             </section>
         </div>
