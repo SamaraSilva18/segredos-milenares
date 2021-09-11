@@ -2,10 +2,12 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 import '../Header/Header.css'
+import nilo from './nile.jpg';
 
 export default function CadastroHeader() {
     return (
         <header className="image-container">
+            <img src={nilo} alt="Banner do rio Nilo" className="imario"/>
             <div className="menu">
                 <nav className="navMenu">
                     <ul>
