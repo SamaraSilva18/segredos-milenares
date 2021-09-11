@@ -30,3 +30,7 @@
     border-radius: .8rem;
     max-height: 50rem;
 }
+
+.texto {
+    max-width: 70rem;
+}

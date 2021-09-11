@@ -8,7 +8,7 @@ export default function Cadastro(props) {
          <CadastroHeader/>
         <div id="container">
             <div class="cadasbody">
-            <h2>Cadastre-se para receber atualizaçoes e noticias sobre descobertas do Egito Antigo!</h2>
+            <h2>Cadastre-se para receber atualizações e noticias sobre descobertas do Egito Antigo!</h2>
             <form>
                 <fieldset>
                     <legend>Seus dados:</legend>
@@ -26,9 +26,9 @@ export default function Cadastro(props) {
                         <label for="whatsapp">Telefone: </label>
                         <input name="whatsapp" id="whatsapp" type="number" required/>
                     </div>
-                    <legend>Insira tambem seu endereço e CEP para receber nossa revista!</legend>
+                    <div className="insira">Insira também seu endereço e CEP para receber nossa revista!</div>
                     <div class="input-block">
-                        <label for="address">Endereço: <small>*(Opcional)</small></label>
+                        <label for="address">Endereço: <small>*(Opcional):</small></label>
                         <input name="address" id="address"/>
                     </div>
                     <div class="input-block">

@@ -8,7 +8,6 @@
     margin-top: 0rem;
     margin: 3.2rem;
     padding-top: .4rem;
-    padding-bottom: .8rem;
     text-align: center;
     align-self: center;
     align-items: center;
@@ -29,6 +28,7 @@
 .fieldset {
     border: none;
     padding: 2.4rem;
+    margin-bottom: 2rem;
 }
 
 .fieldset legend {
@@ -99,11 +99,17 @@ fieldset+fieldset {
 }
 
 label small {
-    font-size: 1.2rem;
+    font-size: .8rem;
     padding-left: 1.2rem;
     color: lightgray;
 }
 
+.insira {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: lightgray
+}
 button {
     color: gold;
     background-color:rgb(153, 93, 51);
