@@ -1,8 +1,11 @@
 import React from "react"
 import './Cadastro.css'
+import CadastroHeader from './CadastroHeader.jsx'
 
-export default function Cadastro() {
+export default function Cadastro(props) {
     return (
+     <div>
+         <CadastroHeader/>
         <div id="container">
             <div class="cadasbody">
             <h2>Cadastre-se para receber atualizaçoes e noticias sobre descobertas do Egito Antigo!</h2>
@@ -15,17 +18,29 @@ export default function Cadastro() {
                     </div>
 
                     <div class="input-block">
-                        <label for="avatar">E-mail:</label>
-                        <input name="avatar" id="avatar" required/>
+                        <label for="email">E-mail:</label>
+                        <input name="email" id="email" required/>
                     </div>
 
                     <div class="input-block">
                         <label for="whatsapp">Telefone: <small>(Somente números):</small></label>
                         <input name="whatsapp" id="whatsapp" type="number" required/>
                     </div>
+                    <legend>Insira tambem seu endereço e CEP para receber nossa revista!</legend>
+                    <div class="input-block">
+                        <label for="address">Endereço: <small>*(Opcional)</small></label>
+                        <input name="address" id="address"/>
+                    </div>
+                    <div class="input-block">
+                        <label for="cep">CEP: <small>*(Opcional):</small></label>
+                        <input name="cep" id="cep" type="number"/>
+                    </div>
+                    <button type="submit">Salvar Cadastro</button>
                 </fieldset>
             </form>
             </div>
+    </div>
+
     </div>
     )
 }

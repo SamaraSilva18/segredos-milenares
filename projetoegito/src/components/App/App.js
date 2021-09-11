@@ -9,35 +9,34 @@ import Cadastro from '../Cadastro/Cadastro.jsx'
 import Arte from '../Arte/Arte.jsx';
 import { Route, Switch } from "react-router-dom";
 
-function App() {
+function App(props) {
   return (
     <div>
-        <Header />
     <div>
         <main>
         <Switch>
           <Route exact path ="/">
-
+            <Header />
             <Inicio/>
 
           </Route>
           <Route exact path="/arte">
-
+            <Header />
             <Arte/>
 
           </Route>
           <Route exact path="/mitologia">
-
+            <Header />
             <Mitologia/>
 
           </Route>
           <Route exact path="/realeza">
-
+            <Header />
             <Realeza/>
 
           </Route>
           <Route exact path="/monumentos">
-
+            <Header />
             <Monumentos/>
 
           </Route>
